@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --p-color: #008080;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1f1f1;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10rem;
+  background-color: #f1f1f1;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+nav button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: green;
+  border: 2px solid green;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 700;
+}
+.banner {
+  width: 77%;
+  margin: 0 auto;
+  background-color: rgba(75, 158, 75, 0.438);
+  border-radius: 10px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.banner-content p {
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.banner-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #888;
+}
+
+.banner-content button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: var(--p-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 700;
+  margin-top: 10px;
+}
+.banner > div > img {
+  width: 500px;
+  margin: 35px 10px;
+}
+
+.pillar h2 {
+  margin-top: 20px;
+}
+
+.pillar {
+  padding: 1rem 10rem;
+}
+.pillar .pillar-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.pillar-card {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  margin-top: 20px;
+}
+
+.icon {
+  margin-bottom: 15px;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.vision {
+  padding: 1rem 10rem;
+}
+.vision h2,
+.vision p {
+  margin-top: 10px;
+}
+.vision p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.btn-c {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+.vision .pillar-card:nth-child(1) {
+  background-color: #579cc4;
+}
+.vision .pillar-card:nth-child(2) {
+  background-color: #57c497;
+}
+.vision .pillar-card:nth-child(3) {
+  background-color: pink;
+}
+.btn-d {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+.btn-p {
+  background-color: rgb(223, 114, 132);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+.f-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.testimonial-card {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.quote {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  position: relative;
+  z-index: 50000;
+}
+
+.quote-icon {
+  position: absolute;
+  font-size: 6rem;
+  color: #555;
+  top: -30px;
+  left: -20px;
+}
+
+.author {
+  margin-top: 10px;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.designation {
+  font-size: 1rem;
+  color: #777;
+}
