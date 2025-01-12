@@ -251,3 +251,37 @@ nav button {
   height: 100px;
   object-fit: contain;
 }
+
+.donate {
+  text-align: center;
+  margin: 20px 10rem;
+}
+.donate p {
+  margin-top: 5px;
+}
+
+.donate-card h2 {
+  background-color: white;
+  padding: 1rem 5rem;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 200px;
+}
+.donate-card div {
+  display: flex;
+  gap: 20px;
+
+  justify-content: center;
+}
+
+.donate-card div h2:nth-child(3) {
+  background-color: teal;
+}
+.donate-card input {
+  padding: 2rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
