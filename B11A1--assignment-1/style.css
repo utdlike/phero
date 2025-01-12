@@ -270,18 +270,23 @@ nav button {
 .donate-card div {
   display: flex;
   gap: 20px;
-
   justify-content: center;
 }
 
 .donate-card div h2:nth-child(3) {
   background-color: teal;
 }
-.donate-card input {
+.other-amount {
   padding: 2rem 1rem;
-  border: 1px solid #ccc;
   border-radius: 5px;
-  margin-top: 10px;
-  width: 100%;
   text-align: center;
+}
+
+.other-amount button {
+  padding: 1rem 2rem;
+  background-color: var(--p-color);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
 }
