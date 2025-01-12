@@ -178,21 +178,30 @@ nav button {
   border: 1px solid #e5e7eb;
 }
 
+/* .quote {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  position: relative;
+} */
+
 .quote {
   font-style: italic;
   color: #555;
   margin-bottom: 20px;
   line-height: 1.6;
   position: relative;
-  z-index: 50000;
+  background-size: 30px;
 }
 
 .quote-icon {
   position: absolute;
   font-size: 6rem;
-  color: #555;
+  color: #888;
   top: -30px;
   left: -20px;
+  opacity: 0.5;
 }
 
 .author {
@@ -209,4 +218,36 @@ nav button {
 .designation {
   font-size: 1rem;
   color: #777;
+}
+
+.news {
+  padding: 1rem 10rem;
+}
+.news h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.news-card {
+  padding: 1rem 10rem;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  margin-top: 20px;
+}
+
+.news-card img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.news-card div img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
 }
